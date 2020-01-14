@@ -1,2 +1,0 @@
-# XScrollBootstrapRow
-Created with CodeSandbox

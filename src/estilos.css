@@ -1,0 +1,28 @@
+.row {
+  display: block;
+}
+
+.horizontal-scrollable > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.horizontal-scrollable > .row > .col-4 {
+  display: inline-block;
+  float: none;
+}
+
+.col-4 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 18px;
+}
+
+.col-4:nth-child(2n + 1) {
+  background: yellow;
+}
+
+.col-4:nth-child(2n + 2) {
+  color: white;
+  background: blue;
+}
